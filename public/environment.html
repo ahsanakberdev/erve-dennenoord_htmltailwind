@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erve Dennenoord</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- FONT FAMILY -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">    <!-- SWIPER SLIDER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.5.0/nouislider.css">
+</head>
+<body class="font-Garamond">
+
+    <!-- HERO -->
+    <!-- HEADER -->
+    <header class="absolute z-30 w-full top-0 lg:pt-8 pt-5">
+        <div class="container">
+            <div class="flex items-center lg:justify-start justify-between">
+                <div class="flex items-center">
+                    <a href="" class="lg:mr-4 mr-2">
+                        <img src="../src/img/instagram.svg" class="hover:opacity-50 transition-all ease-linear duration-300" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../src/img/facebook.svg" alt="" class="hover:opacity-50 transition-all ease-linear duration-300">
+                    </a>
+                </div>
+                <div class="menu-trigger lg:hidden block cursor-pointer" onclick="openMenu()">
+                    <img src="../src/img/menu-trigger.svg" width="40px" alt="">
+                </div>
+                <div class="navigations-items lg:flex-row flex-1 flex-col lg:static fixed lg:opacity-100 opacity-0 lg:visible invisible text-center lg:h-auto h-screen lg:overflow-visible overflow-hidden lg:bg-transparent bg-grey-200 mobile-navigation top-0 lg:z-auto -left-96 lg:w-auto w-full bottom-0 transition-all duration-500 ease-in-out flex justify-center items-center" id="mobileNav"">
+                    <ul class="flex lg:flex-row flex-col justify-between">
+                        <li><a href="overview.html">Onze huisjes</a></li>
+                        <li><a href="">Faciliteiten</a></li>
+                        <li><a href="environment.html" class="active">Omgeving</a></li>
+                        <li><a href="">Evenementen</a></li>
+                        <li><a href="">Het theehuis</a></li>
+                        <li><a href="">Over ons</a></li>
+                        <li><a href="detail.html">Contact</a></li>
+                    </ul>
+                    <div class="lg:hidden block cancel absolute right-4 top-4 cursor-pointer" onclick="openMenu()">
+                        <img src="../src/img/cancel.svg" class="w-8" alt="">
+                    </div>
+                </div>
+                <div class="lg:flex hidden">
+                    <button class="translator after:bg-language">
+
+                    </button>
+                    <button class="translator after:bg-language2 ml-1.5">
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER -->
+
+    <!-- BANNER -->
+    <section class="banner bg-banner3 before:z-10 before:bg-inside-h before:bg-no-repeat before:bg-adjust before:lg:h-24 before:lg:w-24 before:h-20 before:w-20 before:absolute before:-bottom-12 before:left-1/2 before:-translate-x-1/2 z-20 bg-cover bg-no-repeat after:2xl:w-[320px] after:md:w-80 after:md:h-80 after:w-72 after:h-72 after:2xl:h-[289px] after:-z-10 after:bg-adjust 2xl:py-44 lg:py-40 md:py-36 py-32 relative after:absolute after:2xl:bottom-0 after:-bottom-3 after:content-[''] after:bg-no-repeat after:bg-insideflo">
+        <div class="container sm:before:block before:hidden before:content-[''] before:absolute before:xl:top-1/4 before:top-[20%] before:right-[20%] before:xl:right-1/4 before:bg-smlayer before:bg-no-repeat before:bg-adjust before:w-14 before:h-14">
+            <div>
+                <div>
+                    <img src="../src/img/logo.svg" class="mx-auto" alt="">
+                </div>
+                <div class="text-center">
+                    <h1 class="lg:text-XlargeFont md:text-4xl sm:text-3xl text-2xl text-white">Ontdek de omgeving</h1>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- BANNER -->
+
+    <!-- HERO -->
+
+    <!-- PARAGRAPH -->
+
+    <div class="container pt-14">
+        <p class="section-paragraph text-center mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis bibendum lacus at pellentesque. Suspendisse et suscipit est.</p>
+    </div>
+
+    <!-- PARAGRAPH -->
+
+    <!-- GRID AREA OVERVIEW -->
+
+    <section class="overflow-hidden relative lg:mt-10 mt-8 environment">
+        <div class="container">
+            <div class="flex lg:flex-nowrap flex-wrap items-center">
+                <div class="lg:w-3/5 w-full lg:py-16 md:py-12 py-10">
+                    <div class="swiper-container2 relative">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper mySwiper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination !-bottom-14">
+                    
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-2/4 w-full lg:pt-0 pt-10 static lg:absolute right-0 after:lg:block after:hidden top-0 bottom-0">
+                    <div class="h-full relative">
+                        <img src="../src/img/environment-1.jpg" class="max-lg:rounded-largee w-full h-full object-cover rounded-tl-3xl rounded-bl-3xl" alt="">
+                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <img src="../src/img/environment-abs.svg" class="xl:w-auto w-32" alt="">
+                            <h2 class="section-heading lg:pt-7 pt-5 !text-center !text-white">Wandelen</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="overflow-hidden relative lg:mt-16 mt-10 environment">
+        <div class="container">
+            <div class="flex max-lg:flex-col-reverse lg:flex-nowrap flex-wrap items-center">
+                <div class="lg:w-2/4 w-full max-lg:mt-10 static lg:absolute left-0 after:lg:block after:hidden top-0 bottom-0">
+                    <div class="h-full relative">
+                        <img src="../src/img/environment-1.jpg" class="w-full h-full max-lg:rounded-largee object-cover rounded-tr-3xl rounded-br-3xl" alt="">
+                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <img src="../src/img/environment-abs2.svg" class="xl:w-auto w-32" alt="">
+                            <h2 class="section-heading lg:pt-7 pt-5 !text-center !text-white">Uiteten</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-3/5 w-full ml-auto max-lg:pt-0 lg:py-16 md:py-12 py-10">
+                    <div class="swiper-container2 relative">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper mySwiper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination !-bottom-14">
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="overflow-hidden relative lg:mt-16 mt-0 environment">
+        <div class="container">
+            <div class="flex lg:flex-nowrap flex-wrap items-center">
+                <div class="lg:w-3/5 w-full lg:py-16 md:py-12 py-10">
+                    <div class="swiper-container2 relative">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper mySwiper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination !-bottom-14">
+                    
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-2/4 w-full lg:pt-0 pt-10 static lg:absolute right-0 after:lg:block after:hidden top-0 bottom-0">
+                    <div class="h-full relative">
+                        <img src="../src/img/environment-1.jpg" class="w-full h-full object-cover max-lg:rounded-largee rounded-tl-3xl rounded-bl-3xl" alt="">
+                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <img src="../src/img/environment-abs3.svg" class="xl:w-auto w-32" alt="">
+                            <h2 class="section-heading lg:pt-7 pt-5 !text-center !text-white">Ontspannen</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="overflow-hidden relative lg:mt-16 mt-0 environment">
+        <div class="container">
+            <div class="flex lg:flex-nowrap max-lg:flex-col-reverse flex-wrap items-center">
+                <div class="lg:w-2/4 w-full max-lg:mt-10 static lg:absolute left-0 after:lg:block after:hidden top-0 bottom-0">
+                    <div class="h-full relative">
+                        <img src="../src/img/environment-1.jpg" class="w-full h-full max-lg:rounded-largee object-cover rounded-tr-3xl rounded-br-3xl" alt="">
+                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                            <img src="../src/img/environment-abs4.svg" class="xl:w-auto w-32" alt="">
+                            <h2 class="section-heading lg:pt-7 pt-5 !text-center !text-white">Actief</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-3/5 w-full ml-auto lg:py-16 md:py-12 py-10">
+                    <div class="swiper-container2 relative">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper mySwiper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider">
+                                    <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                                    <div class="lg:p-4 p-3">
+                                        <div class="info">
+                                            <h4>Lorem ipsum dolor</h4>
+                                            <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. </p>
+                                        </div>     
+                                        <div>
+                                            <a href="" class="btn">
+                                                Meer informatie
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination !-bottom-14">
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GRID AREA OVERVIEW -->
+
+    <!-- OUR COTTAGES -->
+    <section class="lg:pt-24 md:pt-20 pt-16 cottage">
+        <div class="container">
+            <div class="flex items-center">
+                <h2 class="section-heading">Onze huisjes</h2>
+                <span class="line"></span>
+                <p class="section-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis bibendum lacus at pellentesque. Suspendisse et suscipit est.
+                </p>
+            </div>
+            <div class="swiper-container relative lg:pt-20 md:pt-16 pt-14">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper mySwiper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                    <div class="slider">
+                        <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                        <div class="lg:p-4 p-3">
+                            <div class="info">
+                                <h4>Naam huisje</h4>
+                            </div>
+                            <div class="hover">
+                                <div class="flex">
+                                    <img src="../src/img/admin-grey.svg" alt="">
+                                    <span>Aantal personen </span>
+                                </div>
+                                <div>
+                                    <a href="" class="btn">
+                                        Bekijk beschikbaarheid
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <img src="../src/img/cottage-2.jpg" class="w-full" alt="">
+                            <div class="lg:p-4 p-3">
+                                <div class="info">
+                                    <h4>Naam huisje</h4>
+                                </div>
+                                <div class="hover">
+                                    <div class="flex">
+                                        <img src="../src/img/admin-grey.svg" alt="">
+                                        <span>Aantal personen </span>
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn">
+                                            Bekijk beschikbaarheid
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <img src="../src/img/cottage-3.jpg" class="w-full" alt="">
+                            <div class="lg:p-4 p-3">
+                                <div class="info">
+                                    <h4>Naam huisje</h4>
+                                </div>
+                                <div class="hover">
+                                    <div class="flex">
+                                        <img src="../src/img/admin-grey.svg" alt="">
+                                        <span>Aantal personen </span>
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn">
+                                            Bekijk beschikbaarheid
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <img src="../src/img/cottage-4.jpg" class="w-full" alt="">
+                            <div class="lg:p-4 p-3">
+                                <div class="info">
+                                    <h4>Naam huisje</h4>
+                                </div>
+                                <div class="hover">
+                                    <div class="flex">
+                                        <img src="../src/img/admin-grey.svg" alt="">
+                                        <span>Aantal personen </span>
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn">
+                                            Bekijk beschikbaarheid
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <img src="../src/img/cottage-5.jpg" class="w-full" alt="">
+                            <div class="lg:p-4 p-3">
+                                <div class="info">
+                                    <h4>Naam huisje</h4>
+                                </div>
+                                <div class="hover">
+                                    <div class="flex">
+                                        <img src="../src/img/admin-grey.svg" alt="">
+                                        <span>Aantal personen </span>
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn">
+                                            Bekijk beschikbaarheid
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <img src="../src/img/cottage-1.jpg" class="w-full" alt="">
+                            <div class="lg:p-4 p-3">
+                                <div class="info">
+                                    <h4>Naam huisje</h4>
+                                </div>
+                                <div class="hover">
+                                    <div class="flex">
+                                        <img src="../src/img/admin-grey.svg" alt="">
+                                        <span>Aantal personen </span>
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn">
+                                            Bekijk beschikbaarheid
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <img src="../src/img/cottage-2.jpg" class="w-full" alt="">
+                            <div class="lg:p-4 p-3">
+                                <div class="info">
+                                    <h4>Naam huisje</h4>
+                                </div>
+                                <div class="hover">
+                                    <div class="flex">
+                                        <img src="../src/img/admin-grey.svg" alt="">
+                                        <span>Aantal personen </span>
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn">
+                                            Bekijk beschikbaarheid
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <img src="../src/img/cottage-3.jpg" class="w-full" alt="">
+                            <div class="lg:p-4 p-3">
+                                <div class="info">
+                                    <h4>Naam huisje</h4>
+                                </div>
+                                <div class="hover">
+                                    <div class="flex">
+                                        <img src="../src/img/admin-grey.svg" alt="">
+                                        <span>Aantal personen </span>
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn">
+                                            Bekijk beschikbaarheid
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <img src="../src/img/cottage-4.jpg" class="w-full" alt="">
+                            <div class="lg:p-4 p-3">
+                                <div class="info">
+                                    <h4>Naam huisje</h4>
+                                </div>
+                                <div class="hover">
+                                    <div class="flex">
+                                        <img src="../src/img/admin-grey.svg" alt="">
+                                        <span>Aantal personen </span>
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn">
+                                            Bekijk beschikbaarheid
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination lg:!-bottom-20 !-bottom-16">
+            
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- OUR COTTAGES -->
+
+    <!-- EVENTS -->
+    <section class="lg:pt-32 md:pt-28 pt-24 lg:pb-28 md:pb-24 sm:pb-20 pb-16">
+        <div class="container">
+            <div class="flex items-center">
+                <h2 class="section-heading">Evenementen</h2>
+                <span class="line"></span>
+                <p class="section-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mollis bibendum lacus at pellentesque. Suspendisse et suscipit est.
+                </p>
+            </div>
+            <div class="swiper-container2 relative lg:pt-12 md:pt-10 pt-8">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper mySwiper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="flex items-center">
+                                <div class="relative h-fit drop-shadow-customShadow2 bg-light-100 lg:py-5 py-4 lg:px-8 md:px-6 px-5 rounded-2xl lg:mr-5 mr-3">
+                                    <h4 class="text-dark-100 text-sm pb-2">De Boeskool is lös</h4>
+                                    <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. Vestibulum ipsum tellus, pellentesque vitae suscipit.</p>
+                                    <div class="absolute -right-12 z-20 bg-pink-100 lg:px-4 px-3 py-1 rounded-xl text-center text-white lg:text-xl md:text-lg text-sm top-1/2 -translate-y-1/2">
+                                        <span class="lg:text-4xl md:text-3xl text-2xl"> 22 </span> <br>
+                                        AUG
+                                    </div>
+                                </div>
+                                <div class="min-w-fit">
+                                    <img src="../src/img/events-1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="flex items-center">
+                                <div class="min-w-fit lg:mr-5 mr-3">
+                                    <img src="../src/img/events-2.jpg" alt="">
+                                </div>
+                                <div class="relative h-fit drop-shadow-customShadow2 bg-light-100 lg:py-5 py-4 lg:px-8 md:px-6 px-5 rounded-2xl lg:pl-10 pl-auto">
+                                    <h4 class="text-dark-100 text-sm pb-2">De Boeskool is lös</h4>
+                                    <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. Vestibulum ipsum tellus, pellentesque vitae suscipit.</p>
+                                    <div class="absolute -left-12 z-20 bg-pink-100 lg:px-4 px-3 py-1 rounded-xl text-center text-white lg:text-xl md:text-lg text-sm top-1/2 -translate-y-1/2">
+                                        <span class="lg:text-4xl md:text-3xl text-2xl"> 22 </span> <br>
+                                        AUG
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="flex items-center">
+                                <div class="relative h-fit drop-shadow-customShadow2 bg-light-100 lg:py-5 py-4 lg:px-8 md:px-6 px-5 rounded-2xl lg:mr-5 mr-3">
+                                    <h4 class="text-dark-100 text-sm pb-2">De Boeskool is lös</h4>
+                                    <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. Vestibulum ipsum tellus, pellentesque vitae suscipit.</p>
+                                    <div class="absolute -right-12 z-20 bg-pink-100 lg:px-4 px-3 py-1 rounded-xl text-center text-white lg:text-xl md:text-lg text-sm top-1/2 -translate-y-1/2">
+                                        <span class="lg:text-4xl md:text-3xl text-2xl"> 22 </span> <br>
+                                        AUG
+                                    </div>
+                                </div>
+                                <div class="min-w-fit">
+                                    <img src="../src/img/events-1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="flex items-center">
+                                <div class="min-w-fit lg:mr-5 mr-3">
+                                    <img src="../src/img/events-2.jpg" alt="">
+                                </div>
+                                <div class="relative h-fit drop-shadow-customShadow2 bg-light-100 lg:py-5 py-4 lg:px-8 md:px-6 px-5 rounded-2xl lg:pl-10 pl-auto">
+                                    <h4 class="text-dark-100 text-sm pb-2">De Boeskool is lös</h4>
+                                    <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. Vestibulum ipsum tellus, pellentesque vitae suscipit.</p>
+                                    <div class="absolute -left-12 z-20 bg-pink-100 lg:px-4 px-3 py-1 rounded-xl text-center text-white lg:text-xl md:text-lg text-sm top-1/2 -translate-y-1/2">
+                                        <span class="lg:text-4xl md:text-3xl text-2xl"> 22 </span> <br>
+                                        AUG
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="flex items-center">
+                                <div class="relative h-fit drop-shadow-customShadow2 bg-light-100 lg:py-5 py-4 lg:px-8 md:px-6 px-5 rounded-2xl lg:mr-5 mr-3">
+                                    <h4 class="text-dark-100 text-sm pb-2">De Boeskool is lös</h4>
+                                    <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. Vestibulum ipsum tellus, pellentesque vitae suscipit.</p>
+                                    <div class="absolute -right-12 z-20 bg-pink-100 lg:px-4 px-3 py-1 rounded-xl text-center text-white lg:text-xl md:text-lg text-sm top-1/2 -translate-y-1/2">
+                                        <span class="lg:text-4xl md:text-3xl text-2xl"> 22 </span> <br>
+                                        AUG
+                                    </div>
+                                </div>
+                                <div class="min-w-fit">
+                                    <img src="../src/img/events-1.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>
+                            <div class="flex items-center">
+                                <div class="min-w-fit lg:mr-5 mr-3">
+                                    <img src="../src/img/events-2.jpg" alt="">
+                                </div>
+                                <div class="relative h-fit drop-shadow-customShadow2 bg-light-100 lg:py-5 py-4 lg:px-8 md:px-6 px-5 rounded-2xl lg:pl-10 pl-auto">
+                                    <h4 class="text-dark-100 text-sm pb-2">De Boeskool is lös</h4>
+                                    <p class="section-paragraph !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. Maecenas euismod sapien luctus, pretium lorem et, rutrum risus. Vestibulum ipsum tellus, pellentesque vitae suscipit.</p>
+                                    <div class="absolute -left-12 z-20 bg-pink-100 lg:px-4 px-3 py-1 rounded-xl text-center text-white lg:text-xl md:text-lg text-sm top-1/2 -translate-y-1/2">
+                                        <span class="lg:text-4xl md:text-3xl text-2xl"> 22 </span> <br>
+                                        AUG
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination !-bottom-14">
+            
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <a href="" class="btn w-btn mt-20">
+                    Meer over onze faciliteiten
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- EVENTS -->
+
+    <!-- FOOTER -->
+
+    <footer class="bg-dark-100 before:w-[330px] before:h-[330px] before:bg-adjust lg:pb-5 pb-4 lg:pt-20 md:pt-16 pt-12 relative before:absolute before:right-0 before:top-auto before:bottom-0 before:content-[''] before:bg-no-repeat before:bg-footerlayer after:lg:w-[157px] after:w-28 after:h-28 after:lg:h-[151px] after:bg-adjust after:absolute after:left-1/2 after:-translate-x-1/2 after:lg:-top-16 after:-top-12 after:content-[''] after:bg-no-repeat after:bg-roundflo">
+        <div class="container">
+            <div>
+                <div class="flex lg:flex-nowrap flex-wrap pt-5">
+                    <div class="lg:w-1/4 md:w-1/3 sm:w-2/4 w-full mb-4 !pl-0">
+                        <div>
+                            <h4>Contact</h4>
+                            <ul>
+                                <li><a href="">Adres</a></li>
+                                <li><a href="">Plaatsnaam</a></li>
+                                <li><a href="" class="flex items-center"><img src="../src/img/phone.svg" class="pr-2" alt="">Telefoonnummer</a></li>
+                                <li><a href="" class="flex items-center"><img src="../src/img/mail.svg" class="pr-2" alt="">Emailadres</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/3 sm:w-2/4 max-sm:!pl-0 w-full mb-4">
+                        <div>
+                            <h4>Snel naar</h4>
+                            <div class="flex">
+                                <ul class="flex-1 lg:pr-6 pr-3">
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">Onze huisjes</a></li>
+                                    <li><a href="">Reserveren</a></li>
+                                    <li><a href="">Faciliteiten</a></li>
+                                </ul>
+                                <ul class="flex-1 lg:pl-6 pl-3">
+                                    <li><a href="">Omgeving</a></li>
+                                    <li><a href="">Theehuis</a></li>
+                                    <li><a href="">Evenementen</a></li>
+                                    <li><a href="">Over ons</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/3 max-md:!pl-0 sm:w-2/4 w-full mb-4">
+                        <div>
+                            <h4>Volg ons online</h4>
+                            <div class="flex">
+                                <a href="">
+                                    <img src="../src/img/instagram.svg" alt="">
+                                </a>
+                                <a href="" class="ml-4">
+                                    <img src="../src/img/facebook.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/4 md:w-1/3 max-sm:!pl-0 max-lg:!pl-0 max-md:!pl-6 sm:w-2/4 w-full mb-4">
+                        <div>
+                            <h4>Nieuwsbrief ontvangen?</h4>
+                            <p class="section-paragraph !text-white !w-full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum a sem in hendrerit. </p>
+                            <div class="flex mt-3">
+                                <input type="text" name="" id="" class="pl-2 rounded-tl-md rounded-bl-md h-10 text-sm text-[#A5A5A5] w-full" placeholder="Emailadres">
+                                <button class="rounded-tr-md bg-grey-200 inline-block rounded-br-md after:content-[''] relative after:absolute after:top-1/2 w-10 after:-translate-y-1/2 after:left-1/2 after:-translate-x-1/2 after:bg-arrowrightb after:w-4 after:h-2.5 after:bg-no-repeat after:bg-adjust py-2"></button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:pt-6 pt-4">
+                    <a href="" class="text-xs underline text-white">Algemene Voorwaarden</a>
+                    <a href="" class="text-xs underline text-white">Privacy Statement</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FOOTER -->
+
+    <!-- COPYRIGHT -->
+
+    <div class="bg-grey-200 py-3 text-center text-white text-xs">
+        © 2023 Erve Dennenoord | Sitemap
+    </div>
+
+    <!-- COPYRIGHT -->
+
+ 
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+
+    <!-- MAIN JS -->
+
+    <script src="../src/js/main.js"></script>
+</body>
+</html>
